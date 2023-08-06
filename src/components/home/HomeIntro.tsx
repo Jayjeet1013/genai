@@ -42,7 +42,7 @@ const HomeIntro = () => {
           bg={'pink.500'}
           marginLeft={{ base: 'auto', md: 'auto' }} // Adjust the marginLeft here to center the button
         >
-          Start Writing - It's Free
+          Start Writing - It&apos;s Free
         </Button>
       </Box>
 
