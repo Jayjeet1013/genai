@@ -4,3 +4,11 @@
         box-sizing: border-box;
         font-family: "Space Grotesk", sans-serif;
       }
+
+
+@media (max-width:767px ) {
+  .hidden{
+    display: none;
+  }
+  
+}

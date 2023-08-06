@@ -1,6 +1,6 @@
 import { Box, Container, Text ,Flex,Link,Button,Image} from '@chakra-ui/react'
 import React from 'react'
-import logoImg from '../public/logo.svg'
+
 
 
 const Nav = () => {
@@ -28,7 +28,7 @@ const Nav = () => {
 
 
  
- <Flex color={'white'} justify='space-between' gap={10}>
+ <Flex color={'white'} justify='space-between' gap={10} className='hidden'>
   <Text>Home</Text>
   <Text>Pages</Text>
   <Text>Use cases</Text>

@@ -1,4 +1,6 @@
 
+import HomeIntro from "@/components/home/HomeIntro";
+import TryDemo from "@/components/home/TryDemo";
 import Head from "next/head";
 
 export default function Home() {
@@ -13,8 +15,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="" />
       </Head>
-      
-    
+      <HomeIntro/>
+      <TryDemo/>
     </>
   );
 }
