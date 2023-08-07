@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const HomeIntro = () => {
   return (
-  <Box bg={'blue.900'} textColor={'white'}>
+  <Box bg={'#1a1d24'} textColor={'white'}>
     <Container maxW={1300} >
       <Box pt={32} pb={10}>
     <Box
@@ -31,16 +31,17 @@ const HomeIntro = () => {
 
    
     </Box> 
-    <Box textAlign="center" >
+    <Box textAlign="center" py={4} >
         <Button
          
-          my={4}
-          width={{ base: '220px', md: '260px' }}
+         _hover={{textColor:'white',bg:'linear(to-r, darkviolet, red)'}}
+          width={{ base: '210px', md: '240px' }}
+          borderRadius={12}
           fontSize={{base:'14px',md:'18px'}}
           size="lg"
           textColor={'white'}
-          bg={'pink.500'}
-          marginLeft={{ base: 'auto', md: 'auto' }} // Adjust the marginLeft here to center the button
+          bgGradient="linear(to-r, darkviolet, red.400)" 
+
         >
           Start Writing - It&apos;s Free
         </Button>
@@ -48,7 +49,7 @@ const HomeIntro = () => {
 
       <Box display={'flex'} justifyContent="center" alignItems="center" py={8}> 
   <Box
-        border="3px solid  yellow" 
+        border="1px solid  yellow" 
         borderRadius={30}
         overflow={'hidden'}
         
@@ -64,7 +65,7 @@ const HomeIntro = () => {
 </Box>
 
        <Box>
-      <List gap={6} py={4} justifyContent={'center'}  display="flex" flexDirection="row" >
+      <List gap={6} py={4} justifyContent={'center'} alignItems={'center'} display="flex" flexDirection={{base:'column',md:'row'}} >
         <ListItem>&#8226; Write BLogs 10X Faster</ListItem>
         <ListItem>&#8226; Write Higher Converting Posts</ListItem>
         <ListItem>&#8226; Write More Engaging Emails</ListItem>
