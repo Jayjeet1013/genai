@@ -1,4 +1,5 @@
 
+import Features from "@/components/home/Features";
 import HomeIntro from "@/components/home/HomeIntro";
 import TryDemo from "@/components/home/TryDemo";
 import Head from "next/head";
@@ -17,6 +18,7 @@ export default function Home() {
       </Head>
       <HomeIntro/>
       <TryDemo/>
+      <Features/>
     </>
   );
 }
