@@ -114,7 +114,7 @@ function Features() {
               </Text>
               <Link href="#" display={'flex'}  pt={4}  _hover={{ textDecoration: 'underline',fontWeight:'bold' }}>
                 <Text  textColor={"yellow"}>
-                  Get Started Free 
+                  Try Product Description
                 </Text>  <HiOutlineArrowUpRight
             style={{ fontSize: 16, color: "yellow",marginLeft:5,marginTop:4}}
           />
