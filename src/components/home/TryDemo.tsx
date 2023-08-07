@@ -3,7 +3,7 @@ import React from "react";
 
 function TryDemo() {
   return (
-    <Box bg={"blue.900"} textColor={"white"}>
+    <Box bg={"#1a1d24"} textColor={"white"} pb={8}>
       <Container maxW={1300}>
         <Box   >
           <Box textAlign={"center"} py={4}>
@@ -11,7 +11,7 @@ function TryDemo() {
             <Text fontSize={{base:'24px',md:'40px'}} fontWeight={'bold'}>Across Your Favorite Tools</Text>
           </Box>
 
-          <Flex justifyContent={'space-between'} gap={8} py={4}>
+          <Flex justifyContent={'space-between'} gap={8} py={4} direction={{base:'column',md:'row'}}>
             <Box p={8}>
               <Text fontSize={{base:'12px',md:'24px'}} fontWeight={'bold'} px={4}>Generates quality contents</Text>
               <Text as={"p"} p={4}>
