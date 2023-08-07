@@ -5,7 +5,7 @@ import React from 'react'
 
 const Nav = () => {
   return (
-    <Box bg={'blue.900'}  position="fixed" zIndex={100} width="100%">
+    <Box bg={'#1a1d24'}  position="fixed" zIndex={100} width="100%">
    <Container maxW={1300}>
     <Flex
       as="nav"
@@ -18,8 +18,8 @@ const Nav = () => {
       >
 
 <Link   href="/"  
-            p={0}
-            pt={2}
+            pt={4}
+            
             width={{ base: "108px", md: "160px" }}
             height={{ base: "61px", md: "73px" }}> 
    <Image src='/logo.svg' alt='logo of genai'/>
@@ -28,7 +28,7 @@ const Nav = () => {
 
 
  
- <Flex color={'white'} justify='space-between' gap={10} className='hidden'>
+ <Flex color={'white'}  alignItems="center" gap={10}     display={{ base: "none", md: "flex" }}>
   <Text>Home</Text>
   <Text>Pages</Text>
   <Text>Use cases</Text>
@@ -36,7 +36,7 @@ const Nav = () => {
   <Text>Contact</Text>
   <Text>Login</Text>
 
-  <Box color={'yellow.800'}>
+  <Box color={'yellow.800'} >
     <Button p={2} color='yellow.800' >Get Started</Button>
   </Box>
  </Flex>
