@@ -2,6 +2,7 @@
 import Features from "@/components/home/Features";
 import HomeIntro from "@/components/home/HomeIntro";
 import TryDemo from "@/components/home/TryDemo";
+import UseCase from "@/components/home/UseCase";
 import Head from "next/head";
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <HomeIntro/>
       <TryDemo/>
       <Features/>
+      <UseCase/>
     </>
   );
 }

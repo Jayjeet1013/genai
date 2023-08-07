@@ -20,10 +20,10 @@ function Features() {
                 py={4}
                 fontSize={{ base: "32px", md: "50px" }}
               >
-                Let's Create AI-Powered Content With A Single Click.
+                Let&apos;s Create AI-Powered Content With A Single Click.
               </Text>
               <Text pb={4}>
-                To create powerful content, you need to know who you're
+                To create powerful content, you need to know who you&apos;re
                 targeting. Identify your target audience and understand their
                 needs, interests, and pain points.
               </Text>
@@ -31,7 +31,7 @@ function Features() {
                 Start creating powerful content, for your next ads
               </Text>
               <Text pb={2}>
-                Let's Communicate with your customers with emotions
+                Let&apos;s Communicate with your customers with emotions
               </Text>
               <Text>
                 Use visuals like images, videos, or infographics to make your
@@ -69,7 +69,7 @@ function Features() {
               </Text>
               <Text pb={4}>
                 A Magical Tool to Optimize you content for the first know who
-                you're targeting. Identify your target audience and understand
+                you&apos;re targeting. Identify your target audience and understand
                 their needs, interests, and pain points.
               </Text>
             
@@ -98,7 +98,7 @@ function Features() {
                 Write Blog Posts, Stories, & Even Books With GenAI.
               </Text>
               <Text pb={4}>
-                To create powerful content, you need to know who you're
+                To create powerful content, you need to know who you&apos;re
                 targeting. Identify your target audience and understand their
                 needs, interests, and pain points.
               </Text>
@@ -106,7 +106,7 @@ function Features() {
                 Start creating powerful content, for your next ads
               </Text>
               <Text pb={2}>
-                Let's Communicate with your customers with emotions
+                Let&apos;s Communicate with your customers with emotions
               </Text>
               <Text>
                 Use visuals like images, videos, or infographics to make your
