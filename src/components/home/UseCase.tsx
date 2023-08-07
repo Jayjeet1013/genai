@@ -1,4 +1,4 @@
-import { Box, Container, Flex, Text,Link } from '@chakra-ui/react'
+import { Box, Container, Flex, Text,Link, Center } from '@chakra-ui/react'
 import React from 'react'
 import { HiOutlineArrowUpRight } from "react-icons/hi2";
 
@@ -7,12 +7,13 @@ const UseCase = () => {
    <Box bg={'#1a1d24'} pb={32}>
         <Container maxW={1300}>
         <Box textColor={'white'}>
-                <Box textAlign={'center'} p={8}>
-                        <Text py={8} textColor={'yellow'}>GenAI Use Cases</Text>
-                        <Text fontWeight={'bold'} fontSize={{base:'24px',md:'40px'}} px={48}>Write Better Content Faster, The Future Of AI Writing Tools is Here
+          <Center>
+                <Box textAlign={'center'} p={4} maxWidth={{ base: '100%', md: '900px' }}>
+                        <Text p={4}   textColor={'yellow'}>GenAI Use Cases</Text>
+                        <Text fontWeight={'bold'} fontSize={{base:'24px',md:'44px'}} p={4}   >Write Better Content Faster, The Future Of AI Writing Tools is Here
 </Text>
                 </Box>
-
+</Center>
                 <Flex  direction={{base:'column',md:'row'}} justifyContent={'space-between'}>
                         <Box p={4}>
                         <Text py={4} fontWeight={'bold'} >Writing Blog Content</Text>
