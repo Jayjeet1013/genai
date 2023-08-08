@@ -6,7 +6,7 @@ function Started() {
   return (
     <Box bg={"#1a1d24"} pb={20}>
       <Container maxW={1300}>
-        <Box textColor={'white'} border="2px solid #1b7c40" borderRadius={'2xl'}  pt={16}  style={{ marginBottom: "-20px" }} >
+        <Box textColor={'white'} border="2px solid #1b7c40" borderRadius={'2xl'}  pt={16} >
           <Box
             display="grid"
             gridTemplateColumns={{ base: "1fr", md: "1fr" }}
@@ -40,7 +40,7 @@ function Started() {
               textColor={"black"}
               bg={"yellow"}
             >
-              Start Writing - It&apos;s Free
+            Get Started Free
             </Button>
           </Box>
 
@@ -48,7 +48,7 @@ function Started() {
             display={"flex"}
             justifyContent="center"
             alignItems="center"
-            pt={8}
+            py={8}
           
           >
             <Box
