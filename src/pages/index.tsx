@@ -4,6 +4,7 @@ import HomeIntro from "@/components/home/HomeIntro";
 import Plan from "@/components/home/Plan";
 import Questions from "@/components/home/Questions";
 import Review from "@/components/home/Review";
+import Started from "@/components/home/Started";
 import TryDemo from "@/components/home/TryDemo";
 import UseCase from "@/components/home/UseCase";
 import Head from "next/head";
@@ -27,6 +28,7 @@ export default function Home() {
       <Review/>
       <Plan/>
       <Questions/>
+      <Started/>
     </>
   );
 }
