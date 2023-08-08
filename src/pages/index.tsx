@@ -2,6 +2,7 @@
 import Features from "@/components/home/Features";
 import HomeIntro from "@/components/home/HomeIntro";
 import Plan from "@/components/home/Plan";
+import Questions from "@/components/home/Questions";
 import Review from "@/components/home/Review";
 import TryDemo from "@/components/home/TryDemo";
 import UseCase from "@/components/home/UseCase";
@@ -25,6 +26,7 @@ export default function Home() {
       <UseCase/>
       <Review/>
       <Plan/>
+      <Questions/>
     </>
   );
 }
