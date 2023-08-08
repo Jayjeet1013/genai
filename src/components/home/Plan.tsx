@@ -10,7 +10,7 @@ const Plan = () => {
         <Box textAlign={'center'} p={4}>
                 <Text textColor={'yellow'} p={2}>Pricing Plan</Text>
                 <Text p={2} fontSize={{base:'32px',md:'48px'}}>Ready to Get Started?</Text>
-<Text fontSize={{base:'32px',md:'48px'}} p={2}> Don't Worry, We'll Keep You Under Budget</Text>
+<Text fontSize={{base:'32px',md:'48px'}} p={2}> Don&apos;t Worry, We&apos;ll Keep You Under Budget</Text>
 <Text p={2}>Get started with a 5-day trial, Cancel anytime.</Text>
         </Box>
 
