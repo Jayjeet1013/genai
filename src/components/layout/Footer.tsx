@@ -22,7 +22,7 @@ const Footer = () => {
               <Image width={150} height={300} alt="logo" src="/logo2.svg" />
               <Text pt={4}>
                 A Magical Tool to Optimize you content for the first know who
-                you're targeting. Identify your target audience.
+                you&apos;re targeting. Identify your target audience.
               </Text>
             </Box>
             <Box p={4}  textAlign={{base:'center',md:'start'}}>
