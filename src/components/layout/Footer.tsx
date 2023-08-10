@@ -27,21 +27,21 @@ const Footer = () => {
             </Box>
             <Box p={4}  textAlign={{base:'center',md:'start'}}>
               <Text pb={4} fontWeight={'bold'}>Gen AI</Text>
-              <Link><Text pb={2}>About</Text></Link>
-              <Link><Text pb={2}>Blog</Text></Link> 
-              <Link><Text pb={2}> Sign In</Text></Link>
-                <Link><Text pb={2}>Register</Text></Link>
-                   <Link><Text>Contact</Text></Link>
+              <Link><Text pb={2}  _hover={{color:'yellow'}}>About</Text></Link>
+              <Link><Text pb={2}  _hover={{color:'yellow'}}>Blog</Text></Link> 
+              <Link><Text pb={2}  _hover={{color:'yellow'}}> Sign In</Text></Link>
+                <Link><Text pb={2}  _hover={{color:'yellow'}}>Register</Text></Link>
+                   <Link><Text  _hover={{color:'yellow'}}>Contact</Text></Link>
               
             </Box>
 
             <Box p={4} textAlign={{base:'center',md:'start'}}>
               <Text  pb={4} fontWeight={'bold'}>Use Cases</Text>
-              <Link><Text pb={2}>AI Writer</Text></Link>
-              <Link><Text pb={2}>Businesses AI</Text></Link> 
-              <Link><Text pb={2}>AI Blog Writer</Text></Link>
-                <Link><Text pb={2}>AI Content Creator</Text></Link>
-                   <Link><Text>Article Writer</Text></Link>
+              <Link><Text pb={2}  _hover={{color:'yellow'}}>AI Writer</Text></Link>
+              <Link><Text pb={2}  _hover={{color:'yellow'}}>Businesses AI</Text></Link> 
+              <Link><Text pb={2}  _hover={{color:'yellow'}}>AI Blog Writer</Text></Link>
+                <Link><Text pb={2}  _hover={{color:'yellow'}}>AI Content Creator</Text></Link>
+                   <Link><Text  _hover={{color:'yellow'}}>Article Writer</Text></Link>
             </Box>
 
             <Box p={4} >
