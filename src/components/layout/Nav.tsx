@@ -29,15 +29,15 @@ const Nav = () => {
 
  
  <Flex color={'white'}  alignItems="center" gap={10}     display={{ base: "none", md: "flex" }}>
-  <Text>Home</Text>
-  <Text>Pages</Text>
-  <Text>Use cases</Text>
-  <Text>Pricing</Text>
-  <Text>Contact</Text>
-  <Text>Login</Text>
+  <Link> <Text _hover={{color:'yellow',fontWeight:'bold'}}>Home</Text></Link>
+  <Link><Text  _hover={{color:'yellow',fontWeight:'bold'}}>Pages</Text></Link> 
+  <Link><Text  _hover={{color:'yellow',fontWeight:'bold'}}>Use cases</Text></Link>
+  <Link><Text  _hover={{color:'yellow',fontWeight:'bold'}}>Pricing</Text></Link>
+  <Link><Text  _hover={{color:'yellow',fontWeight:'bold'}}>Contact</Text></Link>
+  <Link><Text  _hover={{color:'yellow',fontWeight:'bold'}}>Login</Text></Link>
 
-  <Box color={'yellow.800'} >
-    <Button p={2} color='yellow.800' >Get Started</Button>
+  <Box color={'yellow.800'}>
+    <Button p={2} color='yellow'  _hover={{bgColor:"yellow",color:'black'}} border={'2px solid yellow'}  bgColor={'transparent'}>Get Started</Button>
   </Box>
  </Flex>
     </Flex>
