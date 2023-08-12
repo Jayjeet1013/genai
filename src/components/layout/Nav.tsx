@@ -56,7 +56,7 @@ const Nav = () => {
           </Box>
     </Flex>
    </Container>
-   <Box w={"full"}  bg={'#1a1d24'} px={8} pb={6} pt={2} display={{ base: menu ? "block" : "none", md: "none" }}>
+   <Box w={"full"}  bg={'#1a1d24'} px={8} pb={4} pt={2} display={{ base: menu ? "block" : "none", md: "none" }}>
    <Flex color={'white'} gap={4}    justifyContent="start" direction={'column'} display={{ base: "flex", md: "none" }}>
   <Link _hover={{color:'yellow',textDecoration:'none'}} > <Text >Home</Text></Link>
   <Link _hover={{color:'yellow',textDecoration:'none'}}  ><Text >Pages</Text></Link> 
@@ -65,7 +65,7 @@ const Nav = () => {
   <Link _hover={{color:'yellow',textDecoration:'none'}}  ><Text>Contact</Text></Link>
   <Link _hover={{color:'yellow',textDecoration:'none'}}><Text>Login</Text></Link>
 
-  <Box color={'yellow.800'}>
+  <Box color={'yellow.800'} pt={2}>
     <Button p={6} color='yellow'  _hover={{bgColor:"yellow",color:'black'}} border={'2px solid yellow'}  bgColor={'transparent'}>Get Started</Button>
   </Box>
  </Flex>
