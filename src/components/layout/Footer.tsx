@@ -73,7 +73,7 @@ const Footer = () => {
             </Box>
           </Flex>
 
-          <Box textAlign={"center"} py={{base:0,md:4}} pb={{base:4,md:0}}>
+          <Box textAlign={"center"} py={{base:0,md:4}} pb={4}>
             <Text>
               Copyright
               <Text as={"span"} textColor={"yellow"}>
