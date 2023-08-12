@@ -20,24 +20,24 @@ const Nav = () => {
 <Link   href="/"  
             pt={4}
             
-            width={{ base: "108px", md: "160px" }}
-            height={{ base: "61px", md: "73px" }}> 
+            width={"160px" }
+            height={ "73px" }> 
    <Image src='/logo.svg' alt='logo of genai'/>
    
 </Link>
 
 
  
- <Flex color={'white'}  alignItems="center" gap={10}     display={{ base: "none", md: "flex" }}>
-  <Link> <Text _hover={{color:'yellow',fontWeight:'bold'}}>Home</Text></Link>
-  <Link><Text  _hover={{color:'yellow',fontWeight:'bold'}}>Pages</Text></Link> 
-  <Link><Text  _hover={{color:'yellow',fontWeight:'bold'}}>Use cases</Text></Link>
-  <Link><Text  _hover={{color:'yellow',fontWeight:'bold'}}>Pricing</Text></Link>
-  <Link><Text  _hover={{color:'yellow',fontWeight:'bold'}}>Contact</Text></Link>
-  <Link><Text  _hover={{color:'yellow',fontWeight:'bold'}}>Login</Text></Link>
+ <Flex color={'white'}  alignItems="center" gap={10}    justifyContent="center"  display={{ base: "none", md: "flex" }}>
+  <Link _hover={{color:'yellow',textDecoration:'none'}} > <Text >Home</Text></Link>
+  <Link _hover={{color:'yellow',textDecoration:'none'}}  ><Text >Pages</Text></Link> 
+  <Link _hover={{color:'yellow',textDecoration:'none'}}  ><Text >Use cases</Text></Link>
+  <Link _hover={{color:'yellow',textDecoration:'none'}}   ><Text >Pricing</Text></Link>
+  <Link _hover={{color:'yellow',textDecoration:'none'}}  ><Text>Contact</Text></Link>
+  <Link _hover={{color:'yellow',textDecoration:'none'}}><Text>Login</Text></Link>
 
   <Box color={'yellow.800'}>
-    <Button p={2} color='yellow'  _hover={{bgColor:"yellow",color:'black'}} border={'2px solid yellow'}  bgColor={'transparent'}>Get Started</Button>
+    <Button p={6} color='yellow'  _hover={{bgColor:"yellow",color:'black'}} border={'2px solid yellow'}  bgColor={'transparent'}>Get Started</Button>
   </Box>
  </Flex>
     </Flex>

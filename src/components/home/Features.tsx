@@ -5,7 +5,7 @@ import { HiOutlineArrowUpRight } from "react-icons/hi2";
 
 function Features() {
   return (
-    <Box bg={"#1a1d24"} py={16}>
+    <Box bg={"#1a1d24"} py={{base:2,md:16}}>
       <Container maxW={1300}>
         <Box textColor={"white"} gap={4}>
           <Flex
@@ -13,7 +13,7 @@ function Features() {
             direction={{ base: "column", md: "row" }}
             pb={12}
           >
-            <Box p={12}>
+            <Box p={{base:4,md:12}}>
               <Text textColor={"yellow"}>Feature1</Text>
               <Text
                 fontWeight={"bold"}
@@ -28,16 +28,16 @@ function Features() {
                 needs, interests, and pain points.
               </Text>
               <Text pb={2}>
-                Start creating powerful content, for your next ads
+              &#8226; Start creating powerful content, for your next ads
               </Text>
               <Text pb={2}>
-                Let&apos;s Communicate with your customers with emotions
+              &#8226; Let&apos;s Communicate with your customers with emotions
               </Text>
               <Text>
-                Use visuals like images, videos, or infographics to make your
+              &#8226;  Use visuals like images, videos, or infographics to make your
                 content more engaging
               </Text>
-              <Link href="#" display={'flex'}  pt={4}  _hover={{ textDecoration: 'underline',fontWeight:'bold' }}>
+              <Link href="#" display={'flex'}  pt={6}  _hover={{ textDecoration: 'underline',fontWeight:'bold' }}>
                 <Text  textColor={"yellow"}>
                   Get Started Free 
                 </Text>  <HiOutlineArrowUpRight
@@ -53,12 +53,12 @@ function Features() {
           <Flex
             justifyContent={"space-between"}
             direction={{ base: "column", md: "row" }}
-            pb={12}
+            pb={{base:6,md:12}}
           >
-            <Box>
+            <Box display={{base:'none',md:'block'}}>
               <Image width={1000} height={1000} src="/fea2.svg" alt="" />
             </Box>
-            <Box p={12}>
+            <Box p={{base:4,md:12}}>
               <Text textColor={"yellow"}>Feature2</Text>
               <Text
                 fontWeight={"bold"}
@@ -81,6 +81,9 @@ function Features() {
           />
               </Link>
             </Box>
+            <Box display={{base:'block',md:'none'}}>
+              <Image width={1000} height={1000} src="/fea2.svg" alt="" />
+            </Box>
           </Flex>
 
           <Flex
@@ -88,7 +91,7 @@ function Features() {
             direction={{ base: "column", md: "row" }}
             pb={12}
           >
-            <Box p={12}>
+            <Box p={{base:4,md:12}}>
               <Text textColor={"yellow"}>Feature3</Text>
               <Text
                 fontWeight={"bold"}
@@ -103,16 +106,16 @@ function Features() {
                 needs, interests, and pain points.
               </Text>
               <Text pb={2}>
-                Start creating powerful content, for your next ads
+              &#8226; Start creating powerful content, for your next ads
               </Text>
               <Text pb={2}>
-                Let&apos;s Communicate with your customers with emotions
+              &#8226; Let&apos;s Communicate with your customers with emotions
               </Text>
               <Text>
-                Use visuals like images, videos, or infographics to make your
+              &#8226;  Use visuals like images, videos, or infographics to make your
                 content more engaging
               </Text>
-              <Link href="#" display={'flex'}  pt={4}  _hover={{ textDecoration: 'underline',fontWeight:'bold' }}>
+              <Link href="#" display={'flex'}  pt={6}  _hover={{ textDecoration: 'underline',fontWeight:'bold' }}>
                 <Text  textColor={"yellow"}>
                   Try Product Description
                 </Text>  <HiOutlineArrowUpRight

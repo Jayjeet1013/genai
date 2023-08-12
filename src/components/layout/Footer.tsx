@@ -18,7 +18,7 @@ const Footer = () => {
             justifyContent={"space-between"}
             direction={{ base: "column", md: "row" }}
           >
-            <Box w={{ base: "100%", md: "25%" }} p={4}>
+            <Box w={{ base: "100%", md: "25%" }} p={4} display={{base:'none',md:'block'}}>
               <Image width={150} height={300} alt="logo" src="/logo2.svg" />
               <Text pt={4}>
                 A Magical Tool to Optimize you content for the first know who
@@ -62,9 +62,18 @@ const Footer = () => {
 <Link fontSize={'2xl'}  _hover={{color:'yellow'}}> <FaInstagramSquare/></Link>
 </Flex>
             </Box>
+
+            <Box w={{ base: "100%", md: "25%" }} p={4} display={{ base: 'block', md: 'none' }}>
+              <Image width={150} height={300}alt="logo" src="/logo2.svg"    style={{ margin: '0 auto' }}
+/>
+              <Text pt={4} textAlign={{ base: 'center', md: 'left' }} fontSize={{base:'16px',md:'28px'}}>
+                A Magical Tool to Optimize you content for the first know who
+                you&apos;re targeting. Identify your target audience.
+              </Text>
+            </Box>
           </Flex>
 
-          <Box textAlign={"center"} py={4}>
+          <Box textAlign={"center"} py={{base:0,md:4}}>
             <Text>
               Copyright
               <Text as={"span"} textColor={"yellow"}>

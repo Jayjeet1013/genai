@@ -6,7 +6,7 @@ function Started() {
   return (
     <Box bg={"#1a1d24"} pb={20}>
       <Container maxW={1300}>
-        <Box textColor={'white'} border="2px solid #1b7c40" borderRadius={'2xl'}  pt={16} >
+        <Box textColor={'white'} border="2px solid #1b7c40" borderRadius={'2xl'}  pt={16} px={{base:4}} >
           <Box
             display="grid"
             gridTemplateColumns={{ base: "1fr", md: "1fr" }}
@@ -17,7 +17,7 @@ function Started() {
           >
             <Box>
               <Text
-                fontSize={{ base: "2xl", md: "5xl" }}
+                fontSize={{ base: "3xl", md: "5xl" }}
                 fontWeight={"bold"}
                 textColor={"white"}
               >

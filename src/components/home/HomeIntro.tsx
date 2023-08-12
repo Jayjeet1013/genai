@@ -58,7 +58,7 @@ const HomeIntro = () => {
   return (
     <Box bg={"#1a1d24"} textColor={"white"}>
       <Container maxW={1300}>
-        <Box pt={32} pb={10}>
+        <Box pt={{base:32,md:36}} pb={10}>
           <Box
             display="grid"
             gridTemplateColumns={{ base: "1fr", md: "1fr" }}
@@ -71,7 +71,7 @@ const HomeIntro = () => {
                 Best AI Copywriting Tool
               </Text>
               <Text
-                fontSize={{ base: "2xl", md: "5xl" }}
+                fontSize={{ base: "4xl", md: "5xl" }}
                 fontWeight={"bold"}
                 textColor={"white"}
               >
@@ -79,7 +79,7 @@ const HomeIntro = () => {
               </Text>
             <Box
  pb={4}
- fontSize={{ base: "xl", md: "5xl" }}
+ fontSize={{ base: "3xl", md: "5xl" }}
  fontWeight="bold"
  bgGradient="linear(to-r, blue.600, yellow.400)"
  bgClip="text"
@@ -88,7 +88,7 @@ const HomeIntro = () => {
         <span
     className="gradient-text"
     style={{
-      background: "-webkit-linear-gradient(to right, blue, red, yellow)",
+      background: "-webkit-linear-gradient(to right, blue,  yellow)",
       WebkitBackgroundClip: "text",
       WebkitTextFillColor: "transparent"
     }}
@@ -107,10 +107,11 @@ const HomeIntro = () => {
                 textColor: "white",
                 bg: "linear(to-r, darkviolet, red)",
               }}
-              width={{ base: "210px", md: "240px" }}
+              width={{ base: "210px", md: "250px" }}
               borderRadius={12}
-              fontSize={{ base: "14px", md: "18px" }}
+              fontSize={{ base: "14px", md: "16px" }}
               size="lg"
+              py={7}
               textColor={"white"}
               bgGradient="linear(to-r, darkviolet, red.400)"
             >
@@ -123,6 +124,7 @@ const HomeIntro = () => {
             justifyContent="center"
             alignItems="center"
             py={8}
+            px={2}
           >
             <Box
               border="1px solid yellow"
@@ -130,6 +132,7 @@ const HomeIntro = () => {
               overflow={"hidden"}
             >
               <Image
+
                 width={1000}
                 height={1000}
                 src="/screen-1.jpg"
