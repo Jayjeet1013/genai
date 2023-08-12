@@ -9,12 +9,12 @@ import {FaInstagramSquare} from 'react-icons/fa'
  
 const Footer = () => {
   return (
-    <Box bg={"#1a1b20"}>
+    <Box bg={"#1a1b20"} >
       <Container maxW={1300}>
         <Box textColor={"white"}>
           <Flex
             px={8}
-            py={12}
+            py={{base:4,md:12}}
             justifyContent={"space-between"}
             direction={{ base: "column", md: "row" }}
           >
@@ -44,9 +44,9 @@ const Footer = () => {
                    <Link><Text  _hover={{color:'yellow'}}>Article Writer</Text></Link>
             </Box>
 
-            <Box p={4} >
+            <Box p={4} textAlign={{base:'center',md:'start'}} >
               <Text pb={4}>News and Update</Text>
-              <Box display={'flex'} flexDirection={'row'} width={"250px"} textColor={'yellow'}>
+              <Box textAlign={{base:'center',md:'start'}} display={'flex'} flexDirection={'row'} width={{base:'100%',md:'250px'}} textColor={'yellow'}>
               <Input   placeholder="Enter your Email"
       color="yellow"
       borderRadius="6px 0 0 6px"
@@ -55,7 +55,7 @@ const Footer = () => {
               <Button borderRadius={'0 6px 6px 0'} bg={'yellow'} fontSize={32}> <RiSendPlaneLine /> </Button>
 </Box>
 
-<Flex direction={'row'} gap={4} pt={8}>
+<Flex direction={'row'} gap={4} pt={8} justifyContent={{base:'center',md:'start'}}>
 <Link fontSize={'2xl'} _hover={{color:'yellow'}}><TbBrandGithubFilled /></Link>
 <Link fontSize={'2xl'}  _hover={{color:'yellow'}}><BsTwitter/></Link>
 <Link fontSize={'2xl'}  _hover={{color:'yellow'}}><FaLinkedinIn/></Link>
@@ -66,14 +66,14 @@ const Footer = () => {
             <Box w={{ base: "100%", md: "25%" }} p={4} display={{ base: 'block', md: 'none' }}>
               <Image width={150} height={300}alt="logo" src="/logo2.svg"    style={{ margin: '0 auto' }}
 />
-              <Text pt={4} textAlign={{ base: 'center', md: 'left' }} fontSize={{base:'16px',md:'28px'}}>
+              <Text pt={4} textAlign={{ base: 'center', md: 'left' }} fontSize={{base:'14px',md:'28px'}}>
                 A Magical Tool to Optimize you content for the first know who
                 you&apos;re targeting. Identify your target audience.
               </Text>
             </Box>
           </Flex>
 
-          <Box textAlign={"center"} py={{base:0,md:4}}>
+          <Box textAlign={"center"} py={{base:0,md:4}} pb={{base:4,md:0}}>
             <Text>
               Copyright
               <Text as={"span"} textColor={"yellow"}>
