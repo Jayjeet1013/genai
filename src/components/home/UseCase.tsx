@@ -22,7 +22,7 @@ const UseCase = () => {
                 <Text  textColor={"yellow"}>
                   Get Started Free 
                 </Text>  <HiOutlineArrowUpRight
-            style={{ fontSize: 16, color: "yellow",marginLeft:5,marginTop:4}}
+            style={{ fontSize: 16,marginLeft:5,marginTop:4}}
           />
               </Link>
                         </Box>
@@ -45,7 +45,7 @@ const UseCase = () => {
                 <Text  textColor={"yellow"}>
                   Get Started Free 
                 </Text>  <HiOutlineArrowUpRight
-            style={{ fontSize: 16, color: "yellow",marginLeft:5,marginTop:4}}
+            style={{ fontSize: 16,marginLeft:5,marginTop:4}}
           />
               </Link>
                         </Box>
@@ -74,7 +74,7 @@ const UseCase = () => {
                 <Text  textColor={"yellow"}>
                   Get Started Free 
                 </Text>  <HiOutlineArrowUpRight
-            style={{ fontSize: 16, color: "yellow",marginLeft:5,marginTop:4}}
+            style={{ fontSize: 16, marginLeft:5,marginTop:4}}
           />
               </Link>
                         </Box>
@@ -85,19 +85,7 @@ const UseCase = () => {
                 <Text  textColor={"yellow"}>
                   Get Started Free 
                 </Text>  <HiOutlineArrowUpRight
-            style={{ fontSize: 16, color: "yellow",marginLeft:5,marginTop:4}}
-          />
-              </Link>
-                        </Box>
-                        
-                        <Box p={4}>
-                        <Text py={4} fontWeight={'bold'} fontSize={'20px'} >Writing Blog Content</Text>
-                        <Text pb={4}>Writing blog content with GenAI, make sure you have a clear understanding of who your audience is.</Text>
-                        <Link href="#" display={'flex'}  pt={4}  _hover={{ textDecoration: 'underline',fontWeight:'bold' }}>
-                <Text  textColor={"yellow"}>
-                  Get Started Free 
-                </Text>  <HiOutlineArrowUpRight
-            style={{ fontSize: 16, color: "yellow",marginLeft:5,marginTop:4}}
+            style={{ fontSize: 16,marginLeft:5,marginTop:4}}
           />
               </Link>
                         </Box>
@@ -109,7 +97,19 @@ const UseCase = () => {
                 <Text  textColor={"yellow"}>
                   Get Started Free 
                 </Text>  <HiOutlineArrowUpRight
-            style={{ fontSize: 16, color: "yellow",marginLeft:5,marginTop:4}}
+            style={{ fontSize: 16,marginLeft:5,marginTop:4}}
+          />
+              </Link>
+                        </Box>
+                        
+                        <Box p={4}>
+                        <Text py={4} fontWeight={'bold'} fontSize={'20px'} >Writing Blog Content</Text>
+                        <Text pb={4}>Writing blog content with GenAI, make sure you have a clear understanding of who your audience is.</Text>
+                        <Link href="#" display={'flex'}  pt={4}  _hover={{ textDecoration: 'underline',fontWeight:'bold' }}>
+                <Text  textColor={"yellow"}>
+                  Get Started Free 
+                </Text>  <HiOutlineArrowUpRight
+            style={{ fontSize: 16,marginLeft:5,marginTop:4}}
           />
               </Link>
                         </Box>
