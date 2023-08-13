@@ -81,20 +81,13 @@ const HomeIntro = () => {
  pb={4}
  fontSize={{ base: "3xl", md: "5xl" }}
  fontWeight="bold"
- bgGradient="linear(to-r, blue.600, yellow.400)"
+ bgGradient="linear(to-r, skyblue,blue.600,yellow,yellow.700)"
  bgClip="text"
  textColor="transparent" // Hide the actual text color
             >
-        <span
-    className="gradient-text"
-    style={{
-      background: "-webkit-linear-gradient(to right, blue,  yellow)",
-      WebkitBackgroundClip: "text",
-      WebkitTextFillColor: "transparent"
-    }}
-  >
+
     {currentText}
-  </span>
+ 
               <Text className={"cursorAnimation"} as={'span'} textColor={'white'}> |</Text>
             </Box>
             </Box>
