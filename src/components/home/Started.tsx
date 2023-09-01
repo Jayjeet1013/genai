@@ -6,14 +6,19 @@ function Started() {
   return (
     <Box bg={"#1a1d24"} pb={20}>
       <Container maxW={1300}>
-        <Box textColor={'white'} border="2px solid #1b7c40" borderRadius={'2xl'}  pt={16} px={{base:4}} >
+        <Box
+          textColor={"white"}
+          border="2px solid #1b7c40"
+          borderRadius={"2xl"}
+          pt={16}
+          px={{ base: 4 }}
+        >
           <Box
             display="grid"
             gridTemplateColumns={{ base: "1fr", md: "1fr" }}
             gap={{ base: 4, md: 8 }}
             textAlign={{ base: "center", md: "center" }}
             px={{ base: 4, md: 8 }}
-            
           >
             <Box>
               <Text
@@ -40,7 +45,7 @@ function Started() {
               textColor={"black"}
               bg={"yellow"}
             >
-            Get Started Free
+              Get Started Free
             </Button>
           </Box>
 
@@ -49,13 +54,11 @@ function Started() {
             justifyContent="center"
             alignItems="center"
             py={8}
-          
           >
             <Box
               border="1px solid  yellow"
               borderRadius={30}
               overflow={"hidden"}
-       
             >
               <Image
                 width={1000}
@@ -63,8 +66,6 @@ function Started() {
                 src="/screen-1.jpg"
                 alt=""
                 objectFit="cover"
-              
-           
               />
             </Box>
           </Box>

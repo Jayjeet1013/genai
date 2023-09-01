@@ -58,7 +58,7 @@ const HomeIntro = () => {
   return (
     <Box bg={"#1a1d24"} textColor={"white"}>
       <Container maxW={1300}>
-        <Box pt={{base:32,md:36}} pb={10}>
+        <Box pt={{ base: 32, md: 36 }} pb={10}>
           <Box
             display="grid"
             gridTemplateColumns={{ base: "1fr", md: "1fr" }}
@@ -77,21 +77,26 @@ const HomeIntro = () => {
               >
                 A 10X Faster Way To Write Your
               </Text>
-            <Box
- pb={4}
- fontSize={{ base: "3xl", md: "5xl" }}
- fontWeight="bold"
- bgGradient="linear(to-r, skyblue,blue.600,yellow,yellow.700)"
- bgClip="text"
- textColor="transparent" // Hide the actual text color
-            >
+              <Box
+                pb={4}
+                fontSize={{ base: "3xl", md: "5xl" }}
+                fontWeight="bold"
+                bgGradient="linear(to-r, skyblue,blue.600,yellow,yellow.700)"
+                bgClip="text"
+                textColor="transparent" // Hide the actual text color
+              >
+                {currentText}
 
-    {currentText}
- 
-              <Text className={"cursorAnimation"} as={'span'} textColor={'white'}> |</Text>
+                <Text
+                  className={"cursorAnimation"}
+                  as={"span"}
+                  textColor={"white"}
+                >
+                  {" "}
+                  |
+                </Text>
+              </Box>
             </Box>
-            </Box>
-
           </Box>
 
           <Box textAlign="center" py={2}>
@@ -125,7 +130,6 @@ const HomeIntro = () => {
               overflow={"hidden"}
             >
               <Image
-
                 width={1000}
                 height={1000}
                 src="/screen-1.jpg"

@@ -16,20 +16,22 @@ function Questions() {
   return (
     <Box bg={"#1a1d24"} pb={20}>
       <Container maxW={1300}>
-        <Box p={{base:0,md:4}} textColor={"white"}>
-          <Box px={4} pb={{base:16}} display={'flex'} justifyContent={'center'}>
-        
-              <Text
-
-                fontWeight={"bold"}
-                textAlign={"center"}
-                width={{ base: "100%", md: "50%" }}
-                fontSize={{ base: "36px", md: "40px" }}
-                p={{base:4,md:6}}
-              >
-                Questions About our GenAI? We have Answers!
-              </Text>
-          
+        <Box p={{ base: 0, md: 4 }} textColor={"white"}>
+          <Box
+            px={4}
+            pb={{ base: 16 }}
+            display={"flex"}
+            justifyContent={"center"}
+          >
+            <Text
+              fontWeight={"bold"}
+              textAlign={"center"}
+              width={{ base: "100%", md: "50%" }}
+              fontSize={{ base: "36px", md: "40px" }}
+              p={{ base: 4, md: 6 }}
+            >
+              Questions About our GenAI? We have Answers!
+            </Text>
           </Box>
 
           <Accordion allowMultiple>

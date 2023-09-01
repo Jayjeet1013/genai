@@ -1,4 +1,3 @@
-
 import Features from "@/components/home/Features";
 import HomeIntro from "@/components/home/HomeIntro";
 import Plan from "@/components/home/Plan";
@@ -21,14 +20,14 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="" />
       </Head>
-      <HomeIntro/>
-      <TryDemo/>
-      <Features/>
-      <UseCase/>
-      <Review/>
-      <Plan/>
-      <Questions/>
-      <Started/>
+      <HomeIntro />
+      <TryDemo />
+      <Features />
+      <UseCase />
+      <Review />
+      <Plan />
+      <Questions />
+      <Started />
     </>
   );
 }
